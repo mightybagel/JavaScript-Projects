@@ -1,0 +1,23 @@
+div{
+    background-color:rgb(226, 220, 220);
+    padding: 10px;
+    border-radius: 4px;
+}
+input{
+    position :relative;
+    width: 100%;
+    padding:12px 0px;
+    border-bottom: 1px solid rgb(75, 72, 72);
+    margin: 6px 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #a2a5a3;
+    color: black;
+    caret-color: black;
+    text-indent: 1em;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+    font-size: 15px;   
+}

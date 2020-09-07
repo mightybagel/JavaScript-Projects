@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "description" content="A basic Calculator">
+    <meta name="" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./JavaScript/Calculator_JavaScript.js"></script>
+    <link rel="stylesheet" href="./css/Calculator_CSS.css">
+</head>
+<body onload="Load_handler()"><!--Add Load_handler function to ensure the HTML loads first
+before invoking querySelector. Only the Update_Display() and addEventListener encounters problem
+because they use HTML file. Other function do not get info from HTML file -->
+    <div class="calculator">  
+        <input type="text" class="calculator-screen" value="0" disabled>
+        <div class="calculator-key">
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">x</button>
+            <button type="button" class="operator" value="/">/</button>
+
+            <button type="button" value="0">0</button>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+
+            <button type="button" class="decimal function" value=".">.</button>
+            <button type="button" class="all-clear function" value="all-clear">AC</button>
+            <button type="button" class="equal-sign operator" value="=">=</button>
+        </div>
+    </div>
+</body>
+</html>
