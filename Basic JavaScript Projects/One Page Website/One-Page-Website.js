@@ -31,7 +31,7 @@ function showSlide(n){
     var thumbnails = document.getElementsByClassName("demo");
     var caption = document.getElementById("caption");
     //Check if the slide Index is out of bound
-    if(n >= slides.length){
+    if(n > slides.length){
         slideIndex = 1;
     }
     else if(n < 1){
